@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazir</title>
+    <style>
+        body{
+            background-color: skyblue;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            
+            
+        }
+        button{
+            border-radius: 20px;
+            background-color: aqua;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">Nazir</h1>
+    <button id="btn">Submit</button>
+
+
+    <script>
+        const fruits = ["Apple", "Banana", "Mango",];
+        fruits.push("peach");
+        for (let fruit of fruits) {
+            console.log(fruit);
+        }
+
+        document.getElementById("text").innerText = "Hello Nazir"
+        document.querySelector("button").style.backgroundColor = "skyblue"
+        document.querySelector("h1").style.color = "black"
+        document.getElementById("btn").addEventListener("click", () => {
+            alert("Button Clicked!");
+        });
+
+
+
+
+    </script>
+</body>
+</html>
